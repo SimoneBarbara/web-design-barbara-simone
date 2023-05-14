@@ -1,0 +1,448 @@
+body { 
+
+    margin: 0; 
+
+    background-color:black; 
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+
+} 
+
+.heroimage{
+
+    max-width: 80%;
+
+    display: block;
+
+    margin: auto;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+    
+
+}
+
+hr{
+
+background-color: #f00;
+
+width: 100%;
+
+height: 5px;
+
+margin-top: -75px;
+
+stroke: none;
+
+border: solid;
+  
+}
+
+
+img { 
+
+    max-width: 100%; 
+
+    height: auto; /* serve a eliminare il margin-bottom che le immagini hanno di default */ 
+
+
+} 
+main, footer { 
+
+    max-width: 1200px; 
+
+    margin: auto; 
+
+    padding: 20px; 
+
+    margin-top: 0%;
+
+} 
+header a { 
+
+    text-decoration: none; 
+
+    color:white; 
+
+    font-weight: bold;
+
+} 
+header a:hover { 
+
+    color: #f00; 
+
+    text-decoration:none; 
+
+} 
+header { 
+
+    display: flex; 
+
+    justify-content: space-between; 
+
+    align-items: center; 
+
+    padding: 35px; 
+
+    font-size: 70px;
+
+    color: white;
+
+} 
+header p { 
+
+    margin: 0; 
+
+    font-weight: bold; 
+
+    text-transform:none; 
+
+} 
+header nav ul { 
+
+    margin:0; 
+
+    padding: 0; 
+
+    list-style-type: none; 
+
+    display: flex; 
+
+    gap: 20px; 
+
+   font-size: 30px;
+
+} 
+
+
+
+section.hero h1 { 
+
+    margin: 0; 
+
+    padding: 40px 35px; 
+
+    font-size: 90px; 
+
+    color: rgba(255,255,255); 
+
+} 
+main { 
+
+    margin: 40px auto; 
+
+    display: grid; 
+
+    gap: 20px; 
+
+    color: white;
+
+    font-size: 36px;
+    
+
+} 
+
+main div.card img { /* gestisce imm */
+     
+    display: inline-block;
+
+    border-radius: 0%;
+
+    padding-top:0;
+
+    object-fit:cover; 
+
+    height: 60%;
+
+    width: 40%;
+
+    margin-left: 110px; 
+
+    border: 3px solid white;
+
+
+} 
+
+
+
+main div img { 
+
+    border-radius: 10px; 
+
+} 
+
+div.linea1{
+
+
+    background-color: #f00;
+
+    width: 100%;
+    
+    height: 5px;
+
+    border: #f00;
+
+    color: #f00;
+    
+
+}
+
+
+main div.gallery { 
+
+    display: grid;   
+
+} 
+
+a{
+
+    text-decoration: none;
+
+    color: white;
+
+
+}
+
+a:hover { 
+
+    color: #f00; 
+
+    text-decoration:none; 
+
+} 
+
+footer h1{
+
+    font-size: 70px;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: -105px;
+
+    margin-top: -85px;
+}
+
+footer nav ul{
+
+    margin: 15px;
+
+    padding: 0px 30px; 
+
+    text-align: left;
+
+    display: block; 
+
+    font-weight: bold;
+
+    font-size: 30px;
+
+    margin-top: -210px;
+
+
+
+}
+
+footer a{
+
+    text-decoration: none;
+
+    color: white;
+
+    margin: 30px;
+
+    line-height: 2.3;
+
+
+}
+
+footer a:hover{
+
+    color: #f00; 
+
+    text-decoration:none; 
+
+}
+
+footer p{
+
+ color: white;
+
+ text-align: center;
+
+ margin-top: 25px;
+
+ padding: 10px;
+
+ margin: 10px;
+
+ margin-left: -30px;
+
+ font-size: 30px;
+
+ font-weight: bold;
+}
+
+.colonnadx{
+ color: white;
+
+ text-align:right;
+ 
+ font-size: 30px;
+
+ font-weight: bold;
+
+ margin-left: 70%;
+
+ margin-top: -150px;
+
+
+}
+
+footer hr{
+
+    background-color: #f00;
+
+    width: 143%;
+    
+    height: 5px;
+    
+    margin-top:70px;
+
+    margin-left:-30%;
+    
+    stroke: none;
+    
+    border: solid;
+
+}
+
+
+
+
+.card{
+
+    margin-bottom:-100px;
+}
+
+section.titolo{
+
+    font-size: 60px;
+    
+    text-align: center;
+
+    color: rgba(255,255,255); 
+
+}
+
+main.huincacard p{
+
+    margin-left: 600px;
+
+    color: white;
+
+    margin-top: -120%;
+
+    
+}
+.textl{
+
+
+    margin-left: 40px;
+
+    color: white;
+
+    margin-top: 117%;
+
+    margin-bottom: -200%;
+
+    line-height: 1.7;
+
+    font-size: 42px;
+
+
+}
+
+.textk{
+
+    line-height: 1.7;
+
+    font-size: 38px;
+
+
+}
+
+.textx{
+
+    line-height: 1.7;
+
+}
+
+.textf{
+
+    margin-left: 120px;
+
+    font-size: 32px;
+
+    margin-top: -110px;
+
+    margin-right: -40px;
+
+    line-height: 1.3;
+
+}
+
+
+main.huincacard img{
+
+    max-width: 60%;
+
+    height: 668px;
+    
+    border: 3px solid white;
+}
+
+.riga{
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+    justify-content: center;
+
+    display: flex;
+
+    margin-bottom: 15%;
+
+
+}
+
+.about{
+
+    padding: 20px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 90px;
+}
+.aboutp{
+
+    color: white;
+
+    font-size: 32px;
+
+    text-align: left;
+
+    margin-left: 90px;
+
+    margin-top: -90px;
+
+    
+}
+
